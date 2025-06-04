@@ -26,3 +26,4 @@ distancia = (abs(media - mediana) / mediana) * 100
 print('\nMEDIDAS DE TENDÊNCIA CENTRAL')
 print(f"Média das comissões: R$ {media:.2f}")
 print(f"Mediana das comissões: R$ {mediana:.2f}")
+print(f"Distância entre média e mediana: {distancia:.2f}%")
